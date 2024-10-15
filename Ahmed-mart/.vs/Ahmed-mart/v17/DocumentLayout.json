@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\v1\\adminauthservice\\adminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\v1\\adminauthservice\\adminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\v1\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\v1\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\v1\\userauthservice\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\v1\\userauthservice\\userauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\smsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\smsapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\v1\\smsservice\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\v1\\smsservice\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\controllers\\v1\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\controllers\\v1\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\controllers\\adminauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\controllers\\adminauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\v1\\adminauthservice\\iadminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\v1\\adminauthservice\\iadminauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|d:\\basitprojects\\eccomerce\\ahmed-mart\\ahmed-mart\\services\\v1\\userauthservice\\iuserauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24F14E6B-4E5B-4004-9872-2396B6829674}|Ahmed-mart\\Ahmed-mart.csproj|solutionrelative:ahmed-mart\\services\\v1\\userauthservice\\iuserauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 300,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\BaseService.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\v1\\BaseService.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\BaseService.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\v1\\BaseService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAawCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:15:04.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SmsApiClient.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\SmsApiClient.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\SmsApiClient.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\SmsApiClient.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\SmsApiClient.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAnwCkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:15:05.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmsService.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\SmsService\\SmsService.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\v1\\SmsService\\SmsService.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\SmsService\\SmsService.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\v1\\SmsService\\SmsService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:15:05.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Program.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Program.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Program.cs",
+              "RelativeToolTip": "Ahmed-mart\\Program.cs",
+              "ViewState": "AQIAABcBAAAANDMzMzMbwBoBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T20:09:44.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserAuthController.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Controllers\\v1\\UserAuthController.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Controllers\\v1\\UserAuthController.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Controllers\\v1\\UserAuthController.cs",
+              "RelativeToolTip": "Ahmed-mart\\Controllers\\v1\\UserAuthController.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAUwG4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T19:13:24.788Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdminAuthController.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Controllers\\AdminAuthController.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Controllers\\AdminAuthController.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Controllers\\AdminAuthController.cs",
+              "RelativeToolTip": "Ahmed-mart\\Controllers\\AdminAuthController.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAAH0AAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T19:13:16.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminAuthService.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\AdminAuthService\\AdminAuthService.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\v1\\AdminAuthService\\AdminAuthService.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\AdminAuthService\\AdminAuthService.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\v1\\AdminAuthService\\AdminAuthService.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAAAqwG4CAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:31:49.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserAuthService.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\UserAuthService\\UserAuthService.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\v1\\UserAuthService\\UserAuthService.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\UserAuthService\\UserAuthService.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\v1\\UserAuthService\\UserAuthService.cs",
+              "ViewState": "AQIAAKMDAAAAAAAAAAAAwGUDAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:26:29.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserAuthService.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\UserAuthService\\IUserAuthService.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\v1\\UserAuthService\\IUserAuthService.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\UserAuthService\\IUserAuthService.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\v1\\UserAuthService\\IUserAuthService.cs",
+              "ViewState": "AQIAABEAAACQmZmZmZk8wBIAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:26:27.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAdminAuthService.cs",
+              "DocumentMoniker": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\AdminAuthService\\IAdminAuthService.cs",
+              "RelativeDocumentMoniker": "Ahmed-mart\\Services\\v1\\AdminAuthService\\IAdminAuthService.cs",
+              "ToolTip": "D:\\BasitProjects\\Eccomerce\\Ahmed-mart\\Ahmed-mart\\Services\\v1\\AdminAuthService\\IAdminAuthService.cs",
+              "RelativeToolTip": "Ahmed-mart\\Services\\v1\\AdminAuthService\\IAdminAuthService.cs",
+              "ViewState": "AQIAABAAAADw//////8+wBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:25:43.668Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 100,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

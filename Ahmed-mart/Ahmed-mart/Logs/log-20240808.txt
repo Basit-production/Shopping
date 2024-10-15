@@ -1,0 +1,272 @@
+2024-08-08 12:23:03.331 +05:30  INF  Executed DbCommand (909ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Ahmed-Mart];
+2024-08-08 12:23:03.634 +05:30  INF  Executed DbCommand (228ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Ahmed-Mart] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-08-08 12:23:03.677 +05:30  INF  Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-08 12:23:03.873 +05:30  INF  Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-08-08 12:23:03.875 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-08 12:23:03.913 +05:30  INF  Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-08 12:23:03.946 +05:30  INF  Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-08 12:23:03.979 +05:30  INF  Applying migration '20240808065201_Initial'.
+2024-08-08 12:23:04.276 +05:30  INF  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Audit] (
+    [ID] int NOT NULL IDENTITY,
+    [HttpMethod] nvarchar(max) NULL,
+    [Url] nvarchar(max) NULL,
+    [EntityName] nvarchar(max) NULL,
+    [State] nvarchar(max) NULL,
+    [EntityID] int NOT NULL,
+    [ReasonForChange] nvarchar(max) NULL,
+    [RecordVersion] int NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Audit] PRIMARY KEY ([ID])
+);
+2024-08-08 12:23:04.329 +05:30  ERR  Failed executing DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Category] (
+    [ID] int NOT NULL IDENTITY,
+    [Path] nvarchar(max) NULL,
+    [CategoryCode] nvarchar(max) NOT NULL,
+    [CategoryName] nvarchar(max) NOT NULL,
+    [Discount] int NOT NULL,
+    [AutoDiscount] bit NOT NULL,
+    [ParentCategoryID] int NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_Category] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_Category_Category_ParentCategoryID] FOREIGN KEY ([ParentCategoryID]) REFERENCES [Category] ([ID]) ON DELETE CASCADE
+);
+2024-08-08 12:24:05.250 +05:30  INF  Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-08 12:24:05.422 +05:30  INF  Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-08 12:24:05.425 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-08 12:24:05.434 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-08 12:24:05.520 +05:30  INF  Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-08 12:24:05.552 +05:30  INF  Applying migration '20240808065201_Initial'.
+2024-08-08 12:24:05.702 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Audit] (
+    [ID] int NOT NULL IDENTITY,
+    [HttpMethod] nvarchar(max) NULL,
+    [Url] nvarchar(max) NULL,
+    [EntityName] nvarchar(max) NULL,
+    [State] nvarchar(max) NULL,
+    [EntityID] int NOT NULL,
+    [ReasonForChange] nvarchar(max) NULL,
+    [RecordVersion] int NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Audit] PRIMARY KEY ([ID])
+);
+2024-08-08 12:24:05.707 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Category] (
+    [ID] int NOT NULL IDENTITY,
+    [Path] nvarchar(max) NULL,
+    [CategoryCode] nvarchar(max) NOT NULL,
+    [CategoryName] nvarchar(max) NOT NULL,
+    [Discount] int NOT NULL,
+    [AutoDiscount] bit NOT NULL,
+    [ParentCategoryID] int NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_Category] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_Category_Category_ParentCategoryID] FOREIGN KEY ([ParentCategoryID]) REFERENCES [Category] ([ID])
+);
+2024-08-08 12:24:05.711 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Otp] (
+    [ID] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NULL,
+    [MobileNumber] nvarchar(max) NOT NULL,
+    [OTP] nvarchar(max) NOT NULL,
+    [StartTime] time NOT NULL,
+    [ExpiryTime] time NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_Otp] PRIMARY KEY ([ID])
+);
+2024-08-08 12:24:05.714 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Role] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [Status] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Role] PRIMARY KEY ([ID])
+);
+2024-08-08 12:24:05.717 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SmtpDetails] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NULL,
+    [From] nvarchar(max) NOT NULL,
+    [DisplayName] nvarchar(max) NOT NULL,
+    [Host] nvarchar(max) NOT NULL,
+    [Port] int NOT NULL,
+    [EnableSsl] bit NOT NULL,
+    [Username] nvarchar(max) NOT NULL,
+    [Password] nvarchar(max) NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] varbinary(max) NOT NULL,
+    CONSTRAINT [PK_SmtpDetails] PRIMARY KEY ([ID])
+);
+2024-08-08 12:24:05.721 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AuditDetails] (
+    [ID] int NOT NULL IDENTITY,
+    [AuditID] int NOT NULL,
+    [PropertyName] nvarchar(max) NULL,
+    [OriginalValue] nvarchar(max) NULL,
+    [CurrentValue] nvarchar(max) NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_AuditDetails] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_AuditDetails_Audit_AuditID] FOREIGN KEY ([AuditID]) REFERENCES [Audit] ([ID]) ON DELETE CASCADE
+);
+2024-08-08 12:24:05.725 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Admin] (
+    [ID] int NOT NULL IDENTITY,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [MobileNumber] nvarchar(max) NOT NULL,
+    [SignupID] int NOT NULL,
+    [OrderID] int NOT NULL,
+    [ReturnPolicyID] int NOT NULL,
+    [Token] nvarchar(max) NOT NULL,
+    [PasswordHash] varbinary(max) NOT NULL,
+    [PasswordSalt] varbinary(max) NOT NULL,
+    [RoleID] int NOT NULL,
+    [IsLocked] bit NOT NULL,
+    [Path] nvarchar(max) NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    CONSTRAINT [PK_Admin] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_Admin_Role_RoleID] FOREIGN KEY ([RoleID]) REFERENCES [Role] ([ID]) ON DELETE CASCADE
+);
+2024-08-08 12:24:05.731 +05:30  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [User] (
+    [ID] int NOT NULL IDENTITY,
+    [ParentUserID] int NULL,
+    [FirstName] nvarchar(max) NOT NULL,
+    [LastName] nvarchar(max) NOT NULL,
+    [Email] nvarchar(max) NOT NULL,
+    [MobileNumber] nvarchar(max) NOT NULL,
+    [Token] nvarchar(max) NULL,
+    [PasswordHash] varbinary(max) NOT NULL,
+    [PasswordSalt] varbinary(max) NOT NULL,
+    [RoleID] int NOT NULL,
+    [IsLocked] bit NOT NULL,
+    [Path] nvarchar(max) NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    [RefreshToken] nvarchar(max) NOT NULL,
+    [RefreshTokenCreatedAt] datetime2 NULL,
+    [RefreshTokenTokenExpiresAt] datetime2 NULL,
+    CONSTRAINT [PK_User] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_User_Role_RoleID] FOREIGN KEY ([RoleID]) REFERENCES [Role] ([ID]) ON DELETE CASCADE,
+    CONSTRAINT [FK_User_User_ParentUserID] FOREIGN KEY ([ParentUserID]) REFERENCES [User] ([ID])
+);
+2024-08-08 12:24:05.736 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserRole] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [RoleID] int NOT NULL,
+    [Access] bit NOT NULL,
+    [Read] bit NOT NULL,
+    [Write] bit NOT NULL,
+    [FullAccess] bit NOT NULL,
+    [SortOrder] int NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    CONSTRAINT [PK_UserRole] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_UserRole_Role_RoleID] FOREIGN KEY ([RoleID]) REFERENCES [Role] ([ID]) ON DELETE CASCADE
+);
+2024-08-08 12:24:05.742 +05:30  INF  Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserTracker] (
+    [ID] int NOT NULL IDENTITY,
+    [AdminID] int NULL,
+    [UserID] int NULL,
+    [LogIn] time NOT NULL,
+    [LogOut] time NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    CONSTRAINT [PK_UserTracker] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_UserTracker_Admin_AdminID] FOREIGN KEY ([AdminID]) REFERENCES [Admin] ([ID]),
+    CONSTRAINT [FK_UserTracker_User_UserID] FOREIGN KEY ([UserID]) REFERENCES [User] ([ID])
+);
+2024-08-08 12:24:05.750 +05:30  INF  Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Admin_RoleID] ON [Admin] ([RoleID]);
+2024-08-08 12:24:05.753 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AuditDetails_AuditID] ON [AuditDetails] ([AuditID]);
+2024-08-08 12:24:05.756 +05:30  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Category_ParentCategoryID] ON [Category] ([ParentCategoryID]);
+2024-08-08 12:24:05.759 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_User_ParentUserID] ON [User] ([ParentUserID]);
+2024-08-08 12:24:05.761 +05:30  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_User_RoleID] ON [User] ([RoleID]);
+2024-08-08 12:24:05.763 +05:30  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserRole_RoleID] ON [UserRole] ([RoleID]);
+2024-08-08 12:24:05.765 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserTracker_AdminID] ON [UserTracker] ([AdminID]);
+2024-08-08 12:24:05.767 +05:30  INF  Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserTracker_UserID] ON [UserTracker] ([UserID]);
+2024-08-08 12:24:05.781 +05:30  INF  Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240808065201_Initial', N'8.0.7');

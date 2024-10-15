@@ -1,0 +1,6 @@
+@Ahmed_mart_HostAddress = http://localhost:5098
+
+GET {{Ahmed_mart_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

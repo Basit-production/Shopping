@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Ahmed_mart</RootNamespace>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <DocumentationFile>D:\Ahmed-mart\Ahmed-mart\bin\Debug\net8.0\Ahmed-mart.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Filters\**" />
+    <Compile Remove="Services\v1\DirectoryService\**" />
+    <Content Remove="Filters\**" />
+    <Content Remove="Services\v1\DirectoryService\**" />
+    <EmbeddedResource Remove="Filters\**" />
+    <EmbeddedResource Remove="Services\v1\DirectoryService\**" />
+    <None Remove="Filters\**" />
+    <None Remove="Services\v1\DirectoryService\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Dtos\SmsApiResponseDto.cs" />
+    <Compile Remove="Dtos\v1\CategoryDtos\AddProductCategoryDto.cs" />
+    <Compile Remove="Dtos\v1\CategoryDtos\UpdateProductCategoryDto.cs" />
+    <Compile Remove="Dtos\v1\OtpDto.cs" />
+    <Compile Remove="Models\v1\Categories.cs" />
+    <Compile Remove="Models\v1\CustomerTracker.cs" />
+    <Compile Remove="Services\v1\ICategoryService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.SqlServer" Version="8.0.2" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="8.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="Hangfire" Version="1.8.14" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Driver" Version="2.27.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AutoMapper\v1\Admindto\" />
+    <Folder Include="Enums\" />
+  </ItemGroup>
+
+</Project>

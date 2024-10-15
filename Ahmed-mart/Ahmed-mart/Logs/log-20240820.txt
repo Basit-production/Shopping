@@ -1,0 +1,211 @@
+2024-08-20 00:49:33.056 +05:30  WRN  No store type was specified for the decimal property 'Price' on entity type 'ProductOptionDetails'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'Quantity' on entity type 'ProductOptionDetails'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'CostPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'Height' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'Length' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'MRP' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'Quantity' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'SellingPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.129 +05:30  WRN  No store type was specified for the decimal property 'Tax' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.130 +05:30  WRN  No store type was specified for the decimal property 'Weight' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.130 +05:30  WRN  No store type was specified for the decimal property 'Width' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.756 +05:30  WRN  No store type was specified for the decimal property 'Price' on entity type 'ProductOptionDetails'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.756 +05:30  WRN  No store type was specified for the decimal property 'Quantity' on entity type 'ProductOptionDetails'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'CostPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'Height' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'Length' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'MRP' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'Quantity' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'SellingPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'Tax' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'Weight' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:49:33.757 +05:30  WRN  No store type was specified for the decimal property 'Width' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.508 +05:30  WRN  No store type was specified for the decimal property 'Price' on entity type 'ProductOptionDetails'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Quantity' on entity type 'ProductOptionDetails'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'CostPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Height' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Length' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'MRP' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Quantity' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'SellingPrice' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Tax' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Weight' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:42.554 +05:30  WRN  No store type was specified for the decimal property 'Width' on entity type 'Products'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-20 00:51:44.149 +05:30  INF  Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-20 00:51:44.189 +05:30  INF  Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-20 00:51:44.192 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-20 00:51:44.194 +05:30  INF  Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-20 00:51:44.237 +05:30  INF  Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-20 00:51:44.257 +05:30  INF  Applying migration '20240819191937_ProductAdd'.
+2024-08-20 00:51:44.593 +05:30  INF  Executed DbCommand (38ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Attributes] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [SortOrder] int NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_Attributes] PRIMARY KEY ([ID])
+);
+2024-08-20 00:51:44.604 +05:30  INF  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [StockStatus] (
+    [ID] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_StockStatus] PRIMARY KEY ([ID])
+);
+2024-08-20 00:51:44.617 +05:30  INF  Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Products] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [Code] nvarchar(max) NOT NULL,
+    [Name] nvarchar(max) NOT NULL,
+    [MRP] decimal(18,2) NOT NULL,
+    [Quantity] decimal(18,2) NOT NULL,
+    [MinimumQuantity] int NOT NULL,
+    [ProductFor] tinyint NOT NULL,
+    [ProductType] tinyint NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Path] nvarchar(max) NOT NULL,
+    [SellingPrice] decimal(18,2) NOT NULL,
+    [CostPrice] decimal(18,2) NOT NULL,
+    [SKU] nvarchar(max) NOT NULL,
+    [BarCode] nvarchar(max) NOT NULL,
+    [IsTaxApplicable] bit NOT NULL,
+    [Tax] decimal(18,2) NOT NULL,
+    [Status] bit NOT NULL,
+    [StockStatusID] int NOT NULL,
+    [IsShipping] bit NOT NULL,
+    [IsProductDeductable] bit NOT NULL,
+    [TransactionNumber] nvarchar(max) NOT NULL,
+    [Length] decimal(18,2) NOT NULL,
+    [Width] decimal(18,2) NOT NULL,
+    [Height] decimal(18,2) NOT NULL,
+    [Weight] decimal(18,2) NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_Products] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_Products_StockStatus_StockStatusID] FOREIGN KEY ([StockStatusID]) REFERENCES [StockStatus] ([ID]) ON DELETE CASCADE
+);
+2024-08-20 00:51:44.626 +05:30  INF  Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductAttributes] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [ProductsID] int NOT NULL,
+    [AttributesID] int NOT NULL,
+    [Value] nvarchar(max) NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_ProductAttributes] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_ProductAttributes_Products_ProductsID] FOREIGN KEY ([ProductsID]) REFERENCES [Products] ([ID]) ON DELETE CASCADE
+);
+2024-08-20 00:51:44.633 +05:30  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductImages] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [ProductsID] int NOT NULL,
+    [Path] nvarchar(max) NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_ProductImages] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_ProductImages_Products_ProductsID] FOREIGN KEY ([ProductsID]) REFERENCES [Products] ([ID]) ON DELETE CASCADE
+);
+2024-08-20 00:51:44.640 +05:30  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductOptions] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [ProductsID] int NOT NULL,
+    [OptionsID] int NOT NULL,
+    [IsRequired] bit NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_ProductOptions] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_ProductOptions_Products_ProductsID] FOREIGN KEY ([ProductsID]) REFERENCES [Products] ([ID]) ON DELETE CASCADE
+);
+2024-08-20 00:51:44.646 +05:30  INF  Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RelatedProducts] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [ProductsID] int NOT NULL,
+    [RelatedProductID] int NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_RelatedProducts] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_RelatedProducts_Products_RelatedProductID] FOREIGN KEY ([RelatedProductID]) REFERENCES [Products] ([ID])
+);
+2024-08-20 00:51:44.653 +05:30  INF  Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ProductOptionDetails] (
+    [ID] int NOT NULL IDENTITY,
+    [StoreID] int NOT NULL,
+    [ProductOptionsID] int NOT NULL,
+    [OptionValue] nvarchar(max) NOT NULL,
+    [Quantity] decimal(18,2) NOT NULL,
+    [IsSubstractFromPrice] bit NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [Status] bit NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedAt] datetime2 NOT NULL,
+    [ModifiedBy] int NULL,
+    [ModifiedAt] datetime2 NULL,
+    [RowVersion] rowversion NOT NULL,
+    CONSTRAINT [PK_ProductOptionDetails] PRIMARY KEY ([ID]),
+    CONSTRAINT [FK_ProductOptionDetails_ProductOptions_ProductOptionsID] FOREIGN KEY ([ProductOptionsID]) REFERENCES [ProductOptions] ([ID]) ON DELETE CASCADE
+);
+2024-08-20 00:51:44.664 +05:30  INF  Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductAttributes_ProductsID] ON [ProductAttributes] ([ProductsID]);
+2024-08-20 00:51:44.667 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductImages_ProductsID] ON [ProductImages] ([ProductsID]);
+2024-08-20 00:51:44.670 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductOptionDetails_ProductOptionsID] ON [ProductOptionDetails] ([ProductOptionsID]);
+2024-08-20 00:51:44.672 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ProductOptions_ProductsID] ON [ProductOptions] ([ProductsID]);
+2024-08-20 00:51:44.676 +05:30  INF  Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Products_StockStatusID] ON [Products] ([StockStatusID]);
+2024-08-20 00:51:44.680 +05:30  INF  Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RelatedProducts_RelatedProductID] ON [RelatedProducts] ([RelatedProductID]);
+2024-08-20 00:51:44.693 +05:30  INF  Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240819191937_ProductAdd', N'8.0.7');
